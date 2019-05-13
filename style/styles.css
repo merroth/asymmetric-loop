@@ -1,0 +1,64 @@
+/* reset */
+html, head, body, * {
+	margin: 0px;
+	padding: 0px;
+	transition: all 0.2s;
+}
+
+/* wrapper */
+.wrapper {
+	margin: 0 auto;
+	max-width: 960px;
+	padding: 1em;
+}
+
+.wrapper-table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.wrapper-table tr:hover {
+	background-color: #ddd;
+}
+.wrapper-table th {
+	background-color: #ddd;
+	cursor: pointer;
+}
+.wrapper-table th:hover {
+	background-color: #2e6da4;
+	color: white;
+}
+
+.wrapper-table input {
+	width: 90%;
+	margin: 0.5em;
+	
+}
+
+.pointer {
+	background-color: #eee;
+	cursor: pointer;
+}
+.pointer:hover {
+	background-color: #ccc;
+}
+
+input, textarea, button {
+	border: 1px solid #bbb;
+	border-radius: 0.3em;
+	line-height: 1.6em;
+	padding: 0.4em;
+}
+
+input[type=button], button {
+	background-color: #2e6da4;
+	color:white;
+}
+input[type=button]:hover, button:hover {
+	cursor: pointer;
+	background-color: #204d74;
+}
+
+td, th {
+	border: 1px solid #ccc;
+}
